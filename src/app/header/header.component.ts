@@ -5,7 +5,9 @@ import { Component } from '@angular/core';
   template: `
     <div id="header">
       <div class="row">
-        <div class="col-lg-2"></div>
+        <div class="col-lg-2">
+          <span class="badge badge-dark">Sepehr Roshanpour</span>
+        </div>
         <div class="col-lg-8">
           <h1>Todo List</h1>
           <p><a routerLink="/">Home</a> | <a routerLink="/about">About</a></p>
